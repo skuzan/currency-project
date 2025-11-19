@@ -1,0 +1,49 @@
+.currency-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.amount{
+    width: 80px;
+    height: 25px;
+    margin-right: 10px;
+}
+.result{
+    width: 80px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.from-currency-option{
+    width: 70px;
+    height: 30px;
+    margin-right: 10px;
+}
+.to-currency-option{
+    width: 70px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.currency-div button {
+  width: 100%;
+  padding: 12px 15px;
+  background: #007bff;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.25s ease, transform 0.15s ease;
+  margin-top: 2rem;
+}
+
+
+.currency-div button:hover {
+  background: #005fcc;
+}
+
